@@ -15,7 +15,7 @@ using TerrariaApi.Server;
 
 namespace PluginCommands
 {
-    [ApiVersion(1, 17)]
+    [ApiVersion(1, 19)]
     public class PluginCommands : TerrariaPlugin
     {
 

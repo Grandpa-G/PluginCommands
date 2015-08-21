@@ -15,7 +15,7 @@ using TerrariaApi.Server;
 
 namespace PluginCommands
 {
-    [ApiVersion(1, 19)]
+    [ApiVersion(1, 21)]
     public class PluginCommands : TerrariaPlugin
     {
 
@@ -44,7 +44,6 @@ namespace PluginCommands
         {
             Commands.ChatCommands.Add(new Command("PluginCommands.allow", pluginCommands, "plugincommands"));
             Commands.ChatCommands.Add(new Command("PluginCommands.allow", pluginCommands, "pc"));
-            Commands.ChatCommands.Add(new Command("PluginCommands.allow", pluginCommands, "bc"));
         }
         protected override void Dispose(bool disposing)
         {
